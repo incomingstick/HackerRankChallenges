@@ -25,7 +25,7 @@ int pairs(int a_size, int* a, int k) {
 }
 
 /* Comparison function to help sort the 
-   calling the pairs function. */
+   array before calling the pairs function. */
 int comp (const void * elem1, const void * elem2) 
 {
     int f = *((int*)elem1);
