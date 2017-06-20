@@ -1,0 +1,3 @@
+[submodule "30-Days-of-Code"]
+	path = 30-Days-of-Code
+	url = git@github.com:incomingstick/30-Days-of-Code.git
