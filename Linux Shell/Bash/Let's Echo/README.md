@@ -27,4 +27,4 @@ Greetings prashantb1984, your current working directory is /home/prashantb1984
 The above message, of course, will vary from system to system, depending on the setting of environment variables.
 
 ## Recommended Resource 
-A quick but useful tutorial for bash newcomers is [here](http://www.panix.com/~elflord/unix/bash-tute.html). 
+A quick but useful tutorial for bash newcomers is [here](http://www.panix.com/~elflord/unix/bash-tute.html).
