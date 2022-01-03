@@ -42,3 +42,5 @@ STDIN                           Function
 
 ## Explanation
 ![graph](https://s3.amazonaws.com/hr-challenge-images/25168/1474122392-c7b9097430-sock.png)
+
+There are three pairs of socks.
