@@ -1,4 +1,4 @@
-# Sales by Match
+# Counting Valleys
 An avid hiker keeps meticulous records of their hikes. During the last hike that took exactly **_steps_** steps, for every step it was noted if it was an uphill, **_U_**, or a downhill, **_D_** step. Hikes always start and end at sea level, and each step up or down represents a **_1_** unit change in altitude. We define the following terms:
 
 - A mountain is a sequence of consecutive steps above sea level, starting with a step up from sea level and ending with a step down to sea level.
