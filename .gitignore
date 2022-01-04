@@ -28,6 +28,9 @@
 *.out
 *.app
 
+# Output files
+out.*
+
 # Folders
 .vscode/
 bin/
