@@ -40,7 +40,7 @@ class Result
 
                 int sum = a + b + c + d + e + f + g;
 
-                Console.WriteLine(sum);
+                // Console.WriteLine(sum);
 
                 // If sum is greater than ret, make it the new ret value
                 if(sum > ret) ret = sum;
