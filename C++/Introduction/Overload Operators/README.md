@@ -25,7 +25,7 @@ The above statement should print "**_a + ib_**" followed by a newline where **_a
 
 ## Input Format
 
-The overloaded operator `+` should receive two complex numbers (**_a + ib_** and **_c + id_**) as parameters. It must return a single complex number.
+The overloaded operator `+` should receive two complex numbers (**_a + ib_** and **_c + ID_**) as parameters. It must return a single complex number.
 
 The overloaded operator `<<` should add "**_a + ib_**" to the stream where **_a_** is the real part and **_b_** is the imaginary part of the complex number which is then passed as a parameter to the overloaded operator.
 
