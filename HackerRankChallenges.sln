@@ -1,0 +1,80 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C#", "C#", "{1DBD47E2-544B-F58A-27AE-70AE938492FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello World", "C#\Hello World\Hello World.csproj", "{F085E81A-0F28-967C-A123-5E5ED510CF19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interview Preperation Kit", "Interview Preperation Kit", "{688657CC-9441-3EFE-04AA-9BA5C3480373}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{A0BC0D60-A295-AE04-BBCF-E708EA233FF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2D Array - DS", "C#\Interview Preperation Kit\Arrays\2D Array - DS\2D Array - DS.csproj", "{9E383005-6069-A769-141C-4CC962FA1AB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays - Left Rotation", "C#\Interview Preperation Kit\Arrays\Arrays - Left Rotation\Arrays - Left Rotation.csproj", "{E27B3369-4DC2-077D-0449-CE5CECB73227}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Warmup Challenges", "Warmup Challenges", "{54F484E8-5F7D-F4B1-3D44-1861C7CBEDEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Counting Valleys", "C#\Interview Preperation Kit\Warmup Challenges\Counting Valleys\Counting Valleys.csproj", "{16B4A549-59F6-D54D-625B-69B9103E7326}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jumping on the Clouds", "C#\Interview Preperation Kit\Warmup Challenges\Jumping on the Clouds\Jumping on the Clouds.csproj", "{A1E78149-F3EB-75B3-52FC-5DD6C98422FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repeated String", "C#\Interview Preperation Kit\Warmup Challenges\Repeated String\Repeated String.csproj", "{A77845D0-BA0E-F52A-13CA-C93CB0A38A99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbm", "C#\Interview Preperation Kit\Warmup Challenges\Sales by Match\sbm.csproj", "{8A371B73-FFE6-EBB6-9355-0F3EF9549B2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F085E81A-0F28-967C-A123-5E5ED510CF19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F085E81A-0F28-967C-A123-5E5ED510CF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F085E81A-0F28-967C-A123-5E5ED510CF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F085E81A-0F28-967C-A123-5E5ED510CF19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E383005-6069-A769-141C-4CC962FA1AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E383005-6069-A769-141C-4CC962FA1AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E383005-6069-A769-141C-4CC962FA1AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E383005-6069-A769-141C-4CC962FA1AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E27B3369-4DC2-077D-0449-CE5CECB73227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E27B3369-4DC2-077D-0449-CE5CECB73227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E27B3369-4DC2-077D-0449-CE5CECB73227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E27B3369-4DC2-077D-0449-CE5CECB73227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B4A549-59F6-D54D-625B-69B9103E7326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B4A549-59F6-D54D-625B-69B9103E7326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B4A549-59F6-D54D-625B-69B9103E7326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B4A549-59F6-D54D-625B-69B9103E7326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1E78149-F3EB-75B3-52FC-5DD6C98422FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E78149-F3EB-75B3-52FC-5DD6C98422FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E78149-F3EB-75B3-52FC-5DD6C98422FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E78149-F3EB-75B3-52FC-5DD6C98422FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A77845D0-BA0E-F52A-13CA-C93CB0A38A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A77845D0-BA0E-F52A-13CA-C93CB0A38A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A77845D0-BA0E-F52A-13CA-C93CB0A38A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A77845D0-BA0E-F52A-13CA-C93CB0A38A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A371B73-FFE6-EBB6-9355-0F3EF9549B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A371B73-FFE6-EBB6-9355-0F3EF9549B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A371B73-FFE6-EBB6-9355-0F3EF9549B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A371B73-FFE6-EBB6-9355-0F3EF9549B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F085E81A-0F28-967C-A123-5E5ED510CF19} = {1DBD47E2-544B-F58A-27AE-70AE938492FA}
+		{688657CC-9441-3EFE-04AA-9BA5C3480373} = {1DBD47E2-544B-F58A-27AE-70AE938492FA}
+		{A0BC0D60-A295-AE04-BBCF-E708EA233FF2} = {688657CC-9441-3EFE-04AA-9BA5C3480373}
+		{9E383005-6069-A769-141C-4CC962FA1AB2} = {A0BC0D60-A295-AE04-BBCF-E708EA233FF2}
+		{E27B3369-4DC2-077D-0449-CE5CECB73227} = {A0BC0D60-A295-AE04-BBCF-E708EA233FF2}
+		{54F484E8-5F7D-F4B1-3D44-1861C7CBEDEA} = {688657CC-9441-3EFE-04AA-9BA5C3480373}
+		{16B4A549-59F6-D54D-625B-69B9103E7326} = {54F484E8-5F7D-F4B1-3D44-1861C7CBEDEA}
+		{A1E78149-F3EB-75B3-52FC-5DD6C98422FD} = {54F484E8-5F7D-F4B1-3D44-1861C7CBEDEA}
+		{A77845D0-BA0E-F52A-13CA-C93CB0A38A99} = {54F484E8-5F7D-F4B1-3D44-1861C7CBEDEA}
+		{8A371B73-FFE6-EBB6-9355-0F3EF9549B2D} = {54F484E8-5F7D-F4B1-3D44-1861C7CBEDEA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35D34438-13EB-4A41-93C4-5102CDBC2544}
+	EndGlobalSection
+EndGlobal
