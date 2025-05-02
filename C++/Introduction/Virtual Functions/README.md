@@ -5,7 +5,7 @@ The class _Professor_ should have two data members: _publications_ and _cur_{id}
 
 The class _Student_ should have two data members: _marks_, which is an array of size **6** and _cur_{id}_. It has two member functions: _getdata_ and _putdata_. The function _getdata_ should get the input from the user: the _name_, _age_, and the _marks_ of the student in **6** subjects. The function _putdata_ should print the _name_, _age_, _sum_ of the marks and the _cur_{id}_ of the student.
 
-For each object being created of the _Professor_ or the _Student_ class, sequential id's should be assigned to them starting from **1**.
+For each object being created of the _Professor_ or the _Student_ class, sequential IDs should be assigned to them starting from **1**.
 
 Solve this problem using virtual functions, constructors and static variables. You can create more data members if you want.
 
@@ -26,10 +26,10 @@ If the object is of the _Student_ class, you will have to input the _name_, _age
 
 There are two types of output depending on the object.
 
-If the object is of type _Professor_, print the space separated _name_, _age_, _publications_ and _id_ on a new line.
+If the object is of type _Professor_, print the space separated _name_, _age_, _publications_ and _ID_ on a new line.
 
 If the object is of the _Student_ class, print the space separated _name_, _age_, the _sum_ of the 
-_marks_ in **6** subjects and _id_ on a new line.
+_marks_ in **6** subjects and _ID_ on a new line.
 
 ## Sample Input
 ```
