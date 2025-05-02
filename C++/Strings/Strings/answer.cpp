@@ -3,7 +3,8 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
     // Complete the program
 
     string a, b;

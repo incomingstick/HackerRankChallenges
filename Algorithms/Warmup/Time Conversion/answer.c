@@ -6,11 +6,10 @@
 #include <limits.h>
 #include <stdbool.h>
 
-int main() {
-    char* time = (char *)malloc(10240 * sizeof(char));
-    scanf("%s",time);
-    
-    
-    
+int main()
+{
+    char *time = (char *)malloc(10240 * sizeof(char));
+    scanf("%s", time);
+
     return 0;
 }

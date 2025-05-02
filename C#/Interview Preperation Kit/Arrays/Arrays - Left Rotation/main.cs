@@ -15,12 +15,13 @@ class Result
      *  2. INTEGER d
      */
 
-    public static List<int> rotLeft(List<int> a, int d)
+    public static List<int> RotLeft(List<int> a, int d)
     {
         // Console.WriteLine("[{0}]", string.Join(", ", a));
 
         // All we need to do is pop the front index to the back d number of times
-        for(int i = 0; i < d; i++) {
+        for (int i = 0; i < d; i++)
+        {
             // Since C# lists don't pop, we do a clone and pop and by hand
             // Clone the first element of the list to the back
             a.Add(a[0]);
@@ -50,7 +51,7 @@ class Solution
 
         List<int> a = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(aTemp => Convert.ToInt32(aTemp)).ToList();
 
-        List<int> result = Result.rotLeft(a, d);
+        List<int> result = Result.RotLeft(a, d);
 
         textWriter.WriteLine(String.Join(" ", result));
 

@@ -13,7 +13,7 @@ class Result
      * The function accepts INTEGER_ARRAY c as parameter.
      */
 
-    public static int jumpingOnClouds(List<int> c)
+    public static int JumpingOnClouds(List<int> c)
     {
         // Print it so we can visualize
         //Console.WriteLine("[{0}]", string.Join(", ", c));
@@ -21,17 +21,19 @@ class Result
         int it = 0;     // Current itrative value
         int hops = 0;   // Number of hops preformed
 
-        return traverse(c, it, hops);
+        return Traverse(c, it, hops);
     }
 
-    private static int traverse(List<int> c, int it, int hops) {
+    private static int Traverse(List<int> c, int it, int hops)
+    {
         // We cannot traverse any further, return our hop count
-        if(it == c.Count - 1) return hops;
+        if (it == c.Count - 1) return hops;
 
         // There is only one hop left
-        if(it == c.Count - 2) {
+        if (it == c.Count - 2)
+        {
             // Make the hop and return
-            if(c[it + 1] == 0) return ++hops;
+            if (c[it + 1] == 0) return ++hops;
             else throw new Exception("Impossible game detected!");
         }
 
@@ -40,20 +42,24 @@ class Result
         int twoSpace = 0;   // The smallest number of hops if you go two spaces
 
         // Check if one space away is safe (one space)
-        if(c[it + 1] == 0) {
-            oneSpace = traverse(c, it + 1, hops + 1);
+        if (c[it + 1] == 0)
+        {
+            oneSpace = Traverse(c, it + 1, hops + 1);
         }
         // We cannot go this way
-        else {
+        else
+        {
             oneSpace = -1;
         }
 
         // Check if two spaces away is safe, and continue traversing if it is. (two spaces)
-        if(c[it + 2] == 0) {
-            twoSpace = traverse(c, it + 2, hops + 1);
+        if (c[it + 2] == 0)
+        {
+            twoSpace = Traverse(c, it + 2, hops + 1);
         }
         // We cannot go this way
-        else {
+        else
+        {
             twoSpace = -1;
         }
 
@@ -61,10 +67,10 @@ class Result
         // Console.WriteLine("it: {0}, oneSpace: {1}, twoSpace: {2}, hops: {3}", it, oneSpace, twoSpace, hops);
 
         // Cannot go two spaces, so we HAVE to go one space
-        if(oneSpace == -1) return twoSpace;
+        if (oneSpace == -1) return twoSpace;
 
         // Cannot go one space, so we HAVE to go two spaces
-        if(twoSpace == -1) return oneSpace;
+        if (twoSpace == -1) return oneSpace;
 
         // Return whichever hop count is smaller
         return oneSpace < twoSpace ? oneSpace : twoSpace;
@@ -81,7 +87,7 @@ class Solution
 
         List<int> c = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(cTemp => Convert.ToInt32(cTemp)).ToList();
 
-        int result = Result.jumpingOnClouds(c);
+        int result = Result.JumpingOnClouds(c);
 
         textWriter.WriteLine(result);
 

@@ -13,7 +13,7 @@ class Result
      *  2. LONG_INTEGER n
      */
 
-    public static long repeatedString(string s, long n)
+    public static long RepeatedString(string s, long n)
     {
         // Lets first get the number of times 'a' appears in the string
         int aCount = s.Length - s.Replace("a", "").Length;
@@ -48,7 +48,7 @@ class Solution
 
         long n = Convert.ToInt64(Console.ReadLine().Trim());
 
-        long result = Result.repeatedString(s, n);
+        long result = Result.RepeatedString(s, n);
 
         textWriter.WriteLine(result);
 

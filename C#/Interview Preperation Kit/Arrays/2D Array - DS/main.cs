@@ -13,14 +13,16 @@ class Result
      * The function accepts 2D_INTEGER_ARRAY arr as parameter.
      */
 
-    public static int hourglassSum(List<List<int>> arr)
+    public static int HourglassSum(List<List<int>> arr)
     {
         // The value to be returned
         int ret = -64;
 
         // We will only need to iterate through the first 
-        for(int i = 0; i < arr.Count - 2; i++) {
-            for(int j = 0; j < arr.Count - 2; j++) {
+        for (int i = 0; i < arr.Count - 2; i++)
+        {
+            for (int j = 0; j < arr.Count - 2; j++)
+            {
                 int a = arr[j][i];
                 int b = arr[j][i + 1];
                 int c = arr[j][i + 2];
@@ -34,7 +36,7 @@ class Result
                 // Console.WriteLine(sum);
 
                 // If sum is greater than ret, make it the new ret value
-                if(sum > ret) ret = sum;
+                if (sum > ret) ret = sum;
             }
         }
 
@@ -56,7 +58,7 @@ class Solution
             arr.Add(Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList());
         }
 
-        int result = Result.hourglassSum(arr);
+        int result = Result.HourglassSum(arr);
 
         textWriter.WriteLine(result);
 

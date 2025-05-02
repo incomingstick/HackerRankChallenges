@@ -1,26 +1,33 @@
 #include <stdio.h>
 
-int max_of_four(int a, int b, int c, int d) {
+int max_of_four(int a, int b, int c, int d)
+{
     int ret;
 
-    if(a > b) {
+    if (a > b)
+    {
         ret = a;
-    } else {
+    }
+    else
+    {
         ret = b;
     }
 
-    if(c > ret) {
+    if (c > ret)
+    {
         ret = c;
     }
 
-    if(d > ret) {
+    if (d > ret)
+    {
         ret = d;
     }
 
     return ret;
 }
 
-int main() {
+int main()
+{
     int a, b, c, d;
 
     scanf("%d %d %d %d", &a, &b, &c, &d);
@@ -28,6 +35,6 @@ int main() {
     int ans = max_of_four(a, b, c, d);
 
     printf("%d", ans);
-    
+
     return 0;
 }

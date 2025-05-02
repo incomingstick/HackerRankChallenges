@@ -6,13 +6,15 @@
 #include <limits.h>
 #include <stdbool.h>
 
-int main(){
-    int n; 
-    scanf("%d",&n);
+int main()
+{
+    int n;
+    scanf("%d", &n);
     int arr[n];
     long long int sum = 0;
-    for(int arr_i = 0; arr_i < n; arr_i++){
-       scanf("%lld",&arr[arr_i]);
+    for (int arr_i = 0; arr_i < n; arr_i++)
+    {
+        scanf("%lld", &arr[arr_i]);
         sum += arr[arr_i];
     }
     printf("%lld", sum);

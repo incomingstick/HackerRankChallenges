@@ -5,33 +5,39 @@
 #include <algorithm>
 using namespace std;
 
-class Matrix {
-    public:
-        vector<vector<int>> a;
-        Matrix operator+(const Matrix obj) {
-            Matrix ret;
+class Matrix
+{
+public:
+   vector<vector<int>> a;
+   Matrix operator+(const Matrix obj)
+   {
+      Matrix ret;
 
-            for(int i = 0; i < obj.a.size(); i++) {
-                vector<int> new_row;
-                int sum;
+      for (int i = 0; i < obj.a.size(); i++)
+      {
+         vector<int> new_row;
+         int sum;
 
-                for(int j = 0; j < obj.a[i].size(); j++) {
-                    sum = a[i][j] + obj.a[i][j];
-                    new_row.push_back(sum);
-                }
+         for (int j = 0; j < obj.a[i].size(); j++)
+         {
+            sum = a[i][j] + obj.a[i][j];
+            new_row.push_back(sum);
+         }
 
-                ret.a.push_back(new_row);
-            }
+         ret.a.push_back(new_row);
+      }
 
-            return ret;
-        };
+      return ret;
+   };
 };
 
-int main () {
+int main()
+{
    int cases, k;
    cin >> cases;
 
-   for(k = 0;k < cases; k++) {
+   for (k = 0; k < cases; k++)
+   {
       Matrix x;
       Matrix y;
       Matrix result;
@@ -39,11 +45,13 @@ int main () {
 
       cin >> n >> m;
 
-      for(i = 0; i < n; i++) {
+      for (i = 0; i < n; i++)
+      {
          vector<int> b;
          int num;
 
-         for(j = 0; j < m; j++) {
+         for (j = 0; j < m; j++)
+         {
             cin >> num;
             b.push_back(num);
          }
@@ -51,11 +59,13 @@ int main () {
          x.a.push_back(b);
       }
 
-      for(i = 0; i < n; i++) {
+      for (i = 0; i < n; i++)
+      {
          vector<int> b;
          int num;
 
-         for(j = 0; j < m; j++) {
+         for (j = 0; j < m; j++)
+         {
             cin >> num;
             b.push_back(num);
          }
@@ -65,14 +75,16 @@ int main () {
 
       result = x + y;
 
-      for(i = 0; i < n; i++) {
-         for(j = 0; j < m; j++) {
+      for (i = 0; i < n; i++)
+      {
+         for (j = 0; j < m; j++)
+         {
             cout << result.a[i][j] << " ";
          }
 
          cout << endl;
       }
-   }  
+   }
 
    return 0;
 }

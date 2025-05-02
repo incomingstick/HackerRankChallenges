@@ -13,7 +13,7 @@ class Result
      *  2. STRING path
      */
 
-    public static int countingValleys(int steps, string path)
+    public static int CountingValleys(int steps, string path)
     {
         // Print it so we can visualize
         //Console.WriteLine("[{0}]", path);
@@ -22,22 +22,27 @@ class Result
         bool isCurrValley = false;  // Tracks if we are currently in a valley to track when we enter and leave
         int level = 0;              // Tracks the current level above "sea level"
 
-        foreach(char c in path) {
+        foreach (char c in path)
+        {
             // When 'U' or 'u', we go up a level
-            if(c == 'U' || c == 'u') {
+            if (c == 'U' || c == 'u')
+            {
                 level++;
             }
             // When 'D' or 'd', we go down a level
-            else if (c == 'D' || c == 'd') {
+            else if (c == 'D' || c == 'd')
+            {
                 level--;
             }
 
             // If we are at or above sea level, we are no longer in a valley
-            if(level >= 0) {
+            if (level >= 0)
+            {
                 isCurrValley = false;
             }
             // When level is below 0, we are in a valley, and if we were not already in a valley, we have entered a new one!
-            else if(level < 0 && !isCurrValley) {
+            else if (level < 0 && !isCurrValley)
+            {
                 valleys++;
                 isCurrValley = true;
             }
@@ -58,7 +63,7 @@ class Solution
 
         string path = Console.ReadLine();
 
-        int result = Result.countingValleys(steps, path);
+        int result = Result.CountingValleys(steps, path);
 
         textWriter.WriteLine(result);
 
