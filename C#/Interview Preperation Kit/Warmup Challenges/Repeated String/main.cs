@@ -20,13 +20,13 @@ class Result
 
         // Start our return value by getting the number of times our full string will
         // appear, and multiplying that by our count of 'a'
-        long retVal = (aCount * (n / s.Length));
+        long retVal = aCount * (n / s.Length);
 
         // Find out how many characters of the string are remaining
-        long mod = (n % s.Length);
+        long mod = n % s.Length;
 
         // Get the substring of our string for the remainder
-        string sub = s.Substring(0, (int)mod);
+        string sub = s[..(int)mod];
 
         // Add any remaining counts of 'a'
         retVal += sub.Length - sub.Replace("a", "").Length;
