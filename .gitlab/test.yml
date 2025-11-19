@@ -1,12 +1,3 @@
 ---
 include:
-  - template: Jobs/Secret-Detection.gitlab-ci.yml
-  - template: Jobs/SAST.gitlab-ci.yml
-
-secret_detection:
-  tags:
-    - x86_64
-
-sast:
-  tags:
-    - x86_64
+  - component: $CI_SERVER_FQDN/components/core/test@0.0.3
