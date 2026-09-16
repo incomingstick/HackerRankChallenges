@@ -1,4 +1,5 @@
 # Variable Sized Arrays
+
 You are given **_N_** integer sequences and **_Q_** queries. Each query is in the following format: "**_a b_**" where **_a_** denotes the index of the sequence, and **_b_** denotes the index of the element in that sequence. Your task is to find the value of the element described in each query.
 
 ## Input Format
@@ -10,6 +11,7 @@ The following **_N_** lines contain sequences in this format: "**_k s_0 s_1 s_2 
 The following **_Q_** lines contain queries in this format: "**_a b_**".
 
 ## Constraints
+
 **1 <= _N_ <= 10^5**  
 **1 <= _Q_ <= 10^5**  
 **1 <= _Vk_ <= 3.10^5**  
@@ -23,6 +25,7 @@ The following **_Q_** lines contain queries in this format: "**_a b_**".
 Output **_Q_** lines, the **_ith_** line contains the answer of the **_ith_** query.
 
 ## Sample Input
+
 ```
 2 2
 3 1 5 4
@@ -30,11 +33,14 @@ Output **_Q_** lines, the **_ith_** line contains the answer of the **_ith_** qu
 0 1
 1 3
 ```
+
 ## Sample Output
+
 ```
 5
 9
 ```
+
 ## Explanation
 
 For the first query, the sequence is **[1, 5, 4]**. Hence, the answer is **5**.

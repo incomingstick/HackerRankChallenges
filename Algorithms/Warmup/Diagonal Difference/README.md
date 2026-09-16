@@ -11,16 +11,20 @@ The first line contains a single integer, _N_. The next _N_ lines denote the mat
 Print the absolute difference between the two sums of the matrix's diagonals as a single integer.
 
 ## Sample Input
+
 ```
 3
 11 2 4
 4 5 6
 10 8 -12
 ```
+
 ## Sample Output
+
 ```
 15
 ```
+
 ## Explanation
 
 The primary diagonal is:  

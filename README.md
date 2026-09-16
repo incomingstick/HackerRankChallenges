@@ -21,4 +21,3 @@ A structured collection of solutions to coding challenges from [HackerRank](http
 ## CI/CD Testing
 
 Includes the `core/test` component to run automated security scanning, secret detection, and dependency checks across the solution repository.
-
